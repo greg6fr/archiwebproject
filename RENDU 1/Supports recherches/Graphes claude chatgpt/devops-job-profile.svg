@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <rect x="50" y="30" width="700" height="60" rx="5" ry="5" fill="#3498db"/>
+  <text x="400" y="70" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="white">FICHE DE POSTE : DEVOPS ENGINEER</text>
+  
+  <!-- Mission section -->
+  <rect x="50" y="110" width="700" height="70" rx="5" ry="5" fill="#2ecc71"/>
+  <text x="400" y="140" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">MISSION PRINCIPALE</text>
+  <text x="400" y="165" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Responsable de la mise en œuvre, maintenance et évolution du workflow CI/CD</text>
+  
+  <!-- Left column -->
+  <rect x="50" y="200" width="340" height="240" rx="5" ry="5" fill="#9b59b6"/>
+  <text x="220" y="225" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">RESPONSABILITÉS</text>
+  
+  <circle cx="70" cy="255" r="5" fill="white"/>
+  <text x="85" y="260" font-family="Arial" font-size="14" fill="white">Administrer infrastructure CI/CD</text>
+  
+  <circle cx="70" cy="285" r="5" fill="white"/>
+  <text x="85" y="290" font-family="Arial" font-size="14" fill="white">Maintenir pipelines d'automatisation</text>
+  
+  <circle cx="70" cy="315" r="5" fill="white"/>
+  <text x="85" y="320" font-family="Arial" font-size="14" fill="white">Gérer environnements (Dev/Preprod/Prod)</text>
+  
+  <circle cx="70" cy="345" r="5" fill="white"/>
+  <text x="85" y="350" font-family="Arial" font-size="14" fill="white">Maintenir outils de monitoring</text>
+  
+  <circle cx="70" cy="375" r="5" fill="white"/>
+  <text x="85" y="380" font-family="Arial" font-size="14" fill="white">Former les équipes aux pratiques DevOps</text>
+  
+  <circle cx="70" cy="405" r="5" fill="white"/>
+  <text x="85" y="410" font-family="Arial" font-size="14" fill="white">Assurer backups et disaster recovery</text>
+  
+  <!-- Right column -->
+  <rect x="410" y="200" width="340" height="240" rx="5" ry="5" fill="#e74c3c"/>
+  <text x="580" y="225" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">COMPÉTENCES TECHNIQUES</text>
+  
+  <circle cx="430" cy="255" r="5" fill="white"/>
+  <text x="445" y="260" font-family="Arial" font-size="14" fill="white">Linux (Ubuntu/Debian)</text>
+  
+  <circle cx="430" cy="285" r="5" fill="white"/>
+  <text x="445" y="290" font-family="Arial" font-size="14" fill="white">Docker et Kubernetes</text>
+  
+  <circle cx="430" cy="315" r="5" fill="white"/>
+  <text x="445" y="320" font-family="Arial" font-size="14" fill="white">CI/CD (Jenkins, GitLab CI)</text>
+  
+  <circle cx="430" cy="345" r="5" fill="white"/>
+  <text x="445" y="350" font-family="Arial" font-size="14" fill="white">Git et GitFlow</text>
+  
+  <circle cx="430" cy="375" r="5" fill="white"/>
+  <text x="445" y="380" font-family="Arial" font-size="14" fill="white">Scripting (Bash, Python)</text>
+  
+  <circle cx="430" cy="405" r="5" fill="white"/>
+  <text x="445" y="410" font-family="Arial" font-size="14" fill="white">Monitoring (Prometheus, Grafana, ELK)</text>
+  
+  <!-- Bottom left -->
+  <rect x="50" y="460" width="340" height="110" rx="5" ry="5" fill="#f39c12"/>
+  <text x="220" y="485" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">PROFIL</text>
+  
+  <circle cx="70" cy="515" r="5" fill="white"/>
+  <text x="85" y="520" font-family="Arial" font-size="14" fill="white">Formation : Bac+5 informatique</text>
+  
+  <circle cx="70" cy="545" r="5" fill="white"/>
+  <text x="85" y="550" font-family="Arial" font-size="14" fill="white">Expérience : 3+ ans en DevOps/SRE</text>
+  
+  <!-- Bottom right -->
+  <rect x="410" y="460" width="340" height="110" rx="5" ry="5" fill="#1abc9c"/>
+  <text x="580" y="485" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">CONTRAT</text>
+  
+  <circle cx="430" cy="515" r="5" fill="white"/>
+  <text x="445" y="520" font-family="Arial" font-size="14" fill="white">CDI, temps plein (39h/semaine avec RTT)</text>
+  
+  <circle cx="430" cy="545" r="5" fill="white"/>
+  <text x="445" y="550" font-family="Arial" font-size="14" fill="white">Rémunération : 50-65K€ selon expérience</text>
+</svg>

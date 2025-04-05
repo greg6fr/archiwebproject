@@ -1,0 +1,32 @@
+flowchart TB
+    subgraph "Procédure de Sauvegarde"
+        A1[Déclenchement programmé] --> B1{Vérification des pré-requis}
+        B1 -->|Échec| C1[Alerte administrateur]
+        B1 -->|Succès| D1[Sauvegarde de la DB]
+        D1 --> E1[Sauvegarde des configurations]
+        E1 --> F1[Sauvegarde des volumes persistants]
+        F1 --> G1[Compression et chiffrement]
+        G1 --> H1[Stockage primaire local]
+        H1 --> I1[Réplication stockage secondaire]
+        I1 --> J1{Validation sauvegarde}
+        J1 -->|Échec| C1
+        J1 -->|Succès| K1[Logging et notification]
+        K1 --> L1[Purge anciennes sauvegardes]
+    end
+    
+    subgraph "Procédure de Restauration"
+        A2[Demande de restauration] --> B2[Sélection version sauvegarde]
+        B2 --> C2[Arrêt des services concernés]
+        C2 --> D2[Copie sauvegarde vers environnement cible]
+        D2 --> E2[Déchiffrement et extraction]
+        E2 --> F2[Restauration DB]
+        F2 --> G2[Restauration configurations]
+        G2 --> H2[Restauration volumes persistants]
+        H2 --> I2[Vérification intégrité]
+        I2 -->|Échec| J2[Rollback à l'état précédent]
+        J2 --> K2[Notification échec]
+        I2 -->|Succès| L2[Démarrage des services]
+        L2 --> M2{Vérification fonctionnelle}
+        M2 -->|Échec| J2
+        M2 -->|Succès| N2[Notification succès]
+    end

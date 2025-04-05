@@ -1,0 +1,40 @@
+flowchart TB
+    subgraph "Phase d'Intégration"
+        A[Développeur: Push code] --> B{Vérification automatique}
+        B -->|Échec| C[Notification développeur]
+        C --> A
+        B -->|Succès| D[Build et tests automatisés]
+        D -->|Échec| C
+        D -->|Succès| E[Création image Docker]
+        E --> F[Publication image dans Registry]
+    end
+    
+    subgraph "Déploiement Dev"
+        F --> G[Déploiement automatique en Dev]
+        G --> H{Tests d'acceptation}
+        H -->|Échec| I[Correctifs]
+        I --> A
+        H -->|Succès| J[Validation Dev]
+    end
+    
+    subgraph "Déploiement Préproduction"
+        J --> K[Merge Request vers Branch Pre-prod]
+        K --> L[Revue de code]
+        L -->|Rejeté| I
+        L -->|Approuvé| M[Déploiement automatique Pre-prod]
+        M --> N{Tests QA}
+        N -->|Échec| I
+        N -->|Succès| O[Validation QA]
+    end
+    
+    subgraph "Déploiement Production"
+        O --> P[Création Release Branch]
+        P --> Q[Déploiement manuel déclenché]
+        Q --> R[Vérification Canary]
+        R -->|Échec| S[Rollback automatique]
+        S --> I
+        R -->|Succès| T[Déploiement complet]
+        T --> U[Monitoring post-déploiement]
+        U -->|Anomalies| S
+        U -->|Stable| V[Notification achèvement]
+    end

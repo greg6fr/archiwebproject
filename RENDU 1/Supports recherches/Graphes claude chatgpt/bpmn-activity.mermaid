@@ -1,0 +1,44 @@
+flowchart TB
+    subgraph "Initialisation Projet"
+        A[Brief client] --> B[Création projet GitLab]
+        B --> C[Configuration repository]
+        C --> D[Setup CI/CD Pipeline]
+        D --> E[Création environnements]
+        E --> F[Configuration monitoring]
+    end
+    
+    subgraph "Cycle de Développement"
+        F --> G[Sprint Planning]
+        G --> H[Développement features]
+        H --> I{Pull Request}
+        I -->|Rejetée| H
+        I -->|Acceptée| J[Merge vers develop]
+        J --> K[Déploiement auto dev]
+        K --> L{Tests d'intégration}
+        L -->|Échec| H
+        L -->|Succès| M[Validation features]
+        M --> N{Fin du sprint}
+        N -->|Non| G
+        N -->|Oui| O[Sprint Review]
+        O --> P[Sprint Retrospective]
+        P --> Q{Release à prévoir}
+        Q -->|Non| G
+        Q -->|Oui| R[Préparation Release]
+    end
+    
+    subgraph "Release et Déploiement"
+        R --> S[Création branche release]
+        S --> T[Build release candidate]
+        T --> U[Déploiement auto préproduction]
+        U --> V{Tests QA}
+        V -->|Échec| W[Correctifs bugs]
+        W --> T
+        V -->|Succès| X[Validation client]
+        X -->|Refusée| W
+        X -->|Acceptée| Y[Merge vers master]
+        Y --> Z[Création tag version]
+        Z --> AA[Déploiement production]
+        AA --> AB[Monitoring post-déploiement]
+        AB --> AC[Merge vers develop]
+        AC --> G
+    end
