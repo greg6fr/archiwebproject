@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title Header -->
+  <rect x="50" y="30" width="700" height="70" rx="5" ry="5" fill="#27ae60"/>
+  <text x="400" y="75" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="white">DÉVELOPPEUR BACK-END</text>
+  
+  <!-- Furious Ducks Logo/Icon -->
+  <circle cx="120" cy="65" r="25" fill="#ffffff"/>
+  <text x="120" y="75" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#27ae60">FD</text>
+  
+  <!-- Missions Section -->
+  <rect x="50" y="120" width="340" height="200" rx="5" ry="5" fill="#2980b9"/>
+  <text x="220" y="150" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">MISSIONS PRINCIPALES</text>
+  
+  <circle cx="80" cy="185" r="6" fill="white"/>
+  <text x="100" y="190" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Développement et maintenance</text>
+  <text x="130" y="210" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">des services et API back-end</text>
+  
+  <circle cx="80" cy="235" r="6" fill="white"/>
+  <text x="100" y="240" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Gestion et optimisation</text>
+  <text x="130" y="260" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">des bases de données</text>
+  
+  <circle cx="80" cy="285" r="6" fill="white"/>
+  <text x="100" y="290" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Implémentation des bonnes pratiques</text>
+  <text x="130" y="310" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">de sécurité et de scalabilité</text>
+  
+  <!-- Profil Section -->
+  <rect x="410" y="120" width="340" height="200" rx="5" ry="5" fill="#8e44ad"/>
+  <text x="580" y="150" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">PROFIL RECHERCHÉ</text>
+  
+  <circle cx="440" cy="185" r="6" fill="white"/>
+  <text x="460" y="190" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Expérience de 3 à 6 ans</text>
+  <text x="490" y="210" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">en développement Back-End</text>
+  
+  <circle cx="440" cy="235" r="6" fill="white"/>
+  <text x="460" y="240" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Maîtrise des technologies:</text>
+  <text x="490" y="260" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Node.js, Python, PHP, Java</text>
+  
+  <circle cx="440" cy="285" r="6" fill="white"/>
+  <text x="460" y="290" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Bonne connaissance des bases</text>
+  <text x="490" y="310" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">de données SQL et NoSQL</text>
+  
+  <!-- Contract Section -->
+  <rect x="50" y="340" width="340" height="120" rx="5" ry="5" fill="#e74c3c"/>
+  <text x="220" y="370" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">TYPE DE CONTRAT</text>
+  
+  <rect x="100" y="390" width="240" height="50" rx="25" ry="25" fill="white" opacity="0.9"/>
+  <text x="220" y="420" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#e74c3c">CDI - 35h/semaine</text>
+  <text x="220" y="440" font-family="Arial" font-size="14" text-anchor="middle" fill="#e74c3c">Possibilité de télétravail partiel</text>
+  
+  <!-- Remuneration Section -->
+  <rect x="410" y="340" width="340" height="120" rx="5" ry="5" fill="#f39c12"/>
+  <text x="580" y="370" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">RÉMUNÉRATION</text>
+  
+  <rect x="460" y="390" width="240" height="50" rx="25" ry="25" fill="white" opacity="0.9"/>
+  <text x="580" y="420" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#f39c12">40 000€ - 55 000€ / an</text>
+  <text x="580" y="440" font-family="Arial" font-size="14" text-anchor="middle" fill="#f39c12">Selon expérience</text>
+  
+  <!-- Tech Icons -->
+  <rect x="50" y="480" width="700" height="90" rx="5" ry="5" fill="#f1f3f4"/>
+  <text x="400" y="510" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#424242">TECHNOLOGIES</text>
+  
+  <!-- Node.js Icon -->
+  <rect x="80" y="520" width="80" height="30" rx="5" ry="5" fill="#339933"/>
+  <text x="120" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Node.js</text>
+  
+  <!-- Python Icon -->
+  <rect x="170" y="520" width="80" height="30" rx="5" ry="5" fill="#3776ab"/>
+  <text x="210" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Python</text>
+  
+  <!-- PHP Icon -->
+  <rect x="260" y="520" width="60" height="30" rx="5" ry="5" fill="#777bb4"/>
+  <text x="290" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">PHP</text>
+  
+  <!-- Java Icon -->
+  <rect x="330" y="520" width="60" height="30" rx="5" ry="5" fill="#007396"/>
+  <text x="360" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Java</text>
+  
+  <!-- SQL Icon -->
+  <rect x="400" y="520" width="60" height="30" rx="5" ry="5" fill="#f29111"/>
+  <text x="430" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">SQL</text>
+  
+  <!-- NoSQL Icon -->
+  <rect x="470" y="520" width="80" height="30" rx="5" ry="5" fill="#13aa52"/>
+  <text x="510" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">NoSQL</text>
+  
+  <!-- Cloud Icon -->
+  <rect x="560" y="520" width="110" height="30" rx="5" ry="5" fill="#4285f4"/>
+  <text x="615" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Cloud Arch.</text>
+  
+  <!-- Agency Name -->
+  <text x="680" y="590" font-family="Arial" font-size="12" text-anchor="end" fill="#757575">Furious Ducks Agency</text>
+</svg>

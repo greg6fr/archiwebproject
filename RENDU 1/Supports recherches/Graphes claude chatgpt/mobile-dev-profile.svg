@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title Header -->
+  <rect x="50" y="30" width="700" height="70" rx="5" ry="5" fill="#9c27b0"/>
+  <text x="400" y="75" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="white">DÉVELOPPEUR MOBILE</text>
+  
+  <!-- Furious Ducks Logo/Icon -->
+  <circle cx="120" cy="65" r="25" fill="#ffffff"/>
+  <text x="120" y="75" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#9c27b0">FD</text>
+  
+  <!-- Missions Section -->
+  <rect x="50" y="120" width="340" height="200" rx="5" ry="5" fill="#00bcd4"/>
+  <text x="220" y="150" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">MISSIONS PRINCIPALES</text>
+  
+  <circle cx="80" cy="185" r="6" fill="white"/>
+  <text x="100" y="190" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Développement et optimisation</text>
+  <text x="130" y="210" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">des applications mobiles iOS et Android</text>
+  
+  <circle cx="80" cy="235" r="6" fill="white"/>
+  <text x="100" y="240" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Implémentation des interfaces</text>
+  <text x="130" y="260" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">et des interactions utilisateur</text>
+  
+  <circle cx="80" cy="285" r="6" fill="white"/>
+  <text x="100" y="290" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Publication et mise à jour</text>
+  <text x="130" y="310" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">des applications sur les stores</text>
+  
+  <!-- Profil Section -->
+  <rect x="410" y="120" width="340" height="200" rx="5" ry="5" fill="#ff5722"/>
+  <text x="580" y="150" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">PROFIL RECHERCHÉ</text>
+  
+  <circle cx="440" cy="185" r="6" fill="white"/>
+  <text x="460" y="190" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Expérience de 2 à 5 ans</text>
+  <text x="490" y="210" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">en développement mobile</text>
+  
+  <circle cx="440" cy="235" r="6" fill="white"/>
+  <text x="460" y="240" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Maîtrise de Flutter, React Native,</text>
+  <text x="490" y="260" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">ou développement natif (Swift/Kotlin)</text>
+  
+  <circle cx="440" cy="285" r="6" fill="white"/>
+  <text x="460" y="290" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">Connaissance des bonnes pratiques</text>
+  <text x="490" y="310" font-family="Arial" font-size="14" fill="white" dominant-baseline="middle">UX/UI mobile</text>
+  
+  <!-- Contract Section -->
+  <rect x="50" y="340" width="340" height="120" rx="5" ry="5" fill="#3f51b5"/>
+  <text x="220" y="370" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">TYPE DE CONTRAT</text>
+  
+  <rect x="100" y="390" width="240" height="50" rx="25" ry="25" fill="white" opacity="0.9"/>
+  <text x="220" y="420" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#3f51b5">CDI - 35h/semaine</text>
+  <text x="220" y="440" font-family="Arial" font-size="14" text-anchor="middle" fill="#3f51b5">Possibilité de télétravail partiel</text>
+  
+  <!-- Remuneration Section -->
+  <rect x="410" y="340" width="340" height="120" rx="5" ry="5" fill="#009688"/>
+  <text x="580" y="370" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">RÉMUNÉRATION</text>
+  
+  <rect x="460" y="390" width="240" height="50" rx="25" ry="25" fill="white" opacity="0.9"/>
+  <text x="580" y="420" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#009688">38 000€ - 52 000€ / an</text>
+  <text x="580" y="440" font-family="Arial" font-size="14" text-anchor="middle" fill="#009688">Selon expérience</text>
+  
+  <!-- Tech Icons -->
+  <rect x="50" y="480" width="700" height="90" rx="5" ry="5" fill="#f1f3f4"/>
+  <text x="400" y="510" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#424242">TECHNOLOGIES</text>
+  
+  <!-- Flutter Icon -->
+  <rect x="80" y="520" width="80" height="30" rx="5" ry="5" fill="#02569B"/>
+  <text x="120" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Flutter</text>
+  
+  <!-- React Native Icon -->
+  <rect x="170" y="520" width="110" height="30" rx="5" ry="5" fill="#61dafb"/>
+  <text x="225" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">React Native</text>
+  
+  <!-- Swift Icon -->
+  <rect x="290" y="520" width="70" height="30" rx="5" ry="5" fill="#FA7343"/>
+  <text x="325" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Swift</text>
+  
+  <!-- Kotlin Icon -->
+  <rect x="370" y="520" width="70" height="30" rx="5" ry="5" fill="#7F52FF"/>
+  <text x="405" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Kotlin</text>
+  
+  <!-- iOS Icon -->
+  <rect x="450" y="520" width="60" height="30" rx="5" ry="5" fill="#000000"/>
+  <text x="480" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">iOS</text>
+  
+  <!-- Android Icon -->
+  <rect x="520" y="520" width="80" height="30" rx="5" ry="5" fill="#3DDC84"/>
+  <text x="560" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#000000">Android</text>
+  
+  <!-- UX/UI Icon -->
+  <rect x="610" y="520" width="80" height="30" rx="5" ry="5" fill="#ff4081"/>
+  <text x="650" y="540" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">UX/UI</text>
+  
+  <!-- Agency Name -->
+  <text x="680" y="590" font-family="Arial" font-size="12" text-anchor="end" fill="#757575">Furious Ducks Agency</text>
+</svg>
